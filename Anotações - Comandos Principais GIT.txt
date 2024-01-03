@@ -1,0 +1,19 @@
+git config: Este comando é usado para configurar a identidade do usuário, inserindo informações como nome e email que serão empregadas em cada commit. Exemplo: $ git config --global user.name "Seu nome" $ git config --global user.email "Seu email"
+
+git init: Este comando é usado para criar um novo projeto de git. O comando irá criar um repositório novo em branco e, a partir daí, será possível armazenar seu código fonte, alterar, salvaguardar alterações etc. Exemplo: $ git init
+
+git clone: Este comando cria uma cópia exata de um repositório já existente. Exemplo: git clone <URL do seu projeto>
+
+git add: Este comando adiciona os arquivos especificados de código ao seu repositório, sejam arquivos novos ou arquivos anteriores que foram alterados. Oferece diferentes possibilidades de sintaxe. Exemplo: $ git add seu_arquivo (esse comando irá adicionar o arquivo em específico ao repositório) $ git add * (esse comando irá adicionar todos os arquivos novos e/ou modificados ao repositório)
+
+git commit: Este comando é usado para salvar as alterações no repositório. Exemplo: $ git commit -m "Mensagem de commit"
+
+git push: Este comando é usado para enviar as alterações para o repositório remoto. Exemplo: $ git push origin master
+
+git pull: Este comando é usado para buscar e baixar conteúdo de um repositório remoto e atualizar o repositório local. Exemplo: $ git pull origin master
+
+git status: Este comando é usado para verificar o status atual do seu repositório. Exemplo: $ git status
+
+git log: Este comando é usado para ver o histórico de commits. Exemplo: $ git log
+
+git branch: Este comando é usado para listar, criar ou excluir branches. Exemplo: $ git branch
